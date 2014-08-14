@@ -1,0 +1,49 @@
+html {
+  background: url(images/pokerbackground.jpg) no-repeat center center fixed;
+  background-size: cover;
+}
+
+h1 {
+  color: white;
+  font-size: 60px;
+  text-align: center;
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+
+.container {
+  border-color: red;
+  border-radius: 30px;
+  border-style: dotted;
+  margin: 0 auto;
+  width: 960px;
+}
+
+.container .layout.section {
+  padding-left: 200px;
+  text-indent: 20px;
+  width: 320px;
+}
+
+.holdbuttons:hover {
+  box-shadow: 0 0 10px #ccc;
+}
+
+.question {
+  background: #dddddd;
+}
+
+.text {
+  background-color: black;
+  border-radius: 25px;
+  color: white;
+  font-size: 2em;
+  text-align: center;
+}
+
+#banner {
+  padding-left: 60px;
+}
+
+#hover:hover {
+  box-shadow: 0 0 20px #cc9;
+}
